@@ -1,0 +1,48 @@
+{
+  "name": "template",
+  "version": "0.1.0",
+  "description": "⬛ Template repository",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "clean:dist": "rimraf dist",
+    "prebuild": "npm run clean:dist",
+    "build": "parcel build index.html",
+    "lint": "eslint '*/**/*.{js,ts,tsx}' --fix --quiet",
+    "tsc": "tsc --project . --noEmit",
+    "reinstall": "rimraf node_modules && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krzysztofzuraw/template-react.git"
+  },
+  "keywords": [
+    "template",
+    "repository",
+    "react",
+    "typescript"
+  ],
+  "author": "Krzysztof Żuraw https://krzysztofzuraw.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krzysztofzuraw/template-react/issues"
+  },
+  "homepage": "https://github.com/krzysztofzuraw/template-react#readme",
+  "dependencies": {
+    "react": "16.13.0",
+    "react-dom": "16.13.0"
+  },
+  "devDependencies": {
+    "@types/react-dom": "16.9.5",
+    "@typescript-eslint/eslint-plugin": "2.26.0",
+    "@typescript-eslint/parser": "2.26.0",
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "6.10.1",
+    "eslint-plugin-prettier": "3.1.2",
+    "eslint-plugin-react": "7.19.0",
+    "parcel-bundler": "1.12.4",
+    "prettier": "2.0.4",
+    "rimraf": "3.0.2",
+    "typescript": "3.8.3"
+  }
+}
