@@ -1,7 +1,7 @@
 {
-  "name": "template",
+  "name": "blog-post-exploration",
   "version": "0.1.0",
-  "description": "⬛ Template repository",
+  "description": "Blog post design exploration",
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/krzysztofzuraw/template-react.git"
+    "url": "git+https://github.com/krzysztofzuraw/blog-post-exploration.git"
   },
   "keywords": [
     "template",
@@ -25,9 +25,9 @@
   "author": "Krzysztof Żuraw https://krzysztofzuraw.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/krzysztofzuraw/template-react/issues"
+    "url": "https://github.com/krzysztofzuraw/blog-post-exploration/issues"
   },
-  "homepage": "https://github.com/krzysztofzuraw/template-react#readme",
+  "homepage": "https://github.com/krzysztofzuraw/blog-post-exploration#readme",
   "dependencies": {
     "react": "16.13.0",
     "react-dom": "16.13.0"
