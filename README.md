@@ -35,11 +35,10 @@ npm start
 - https://tympanus.net/Development/ArticleIntroEffects/index.html
 - https://github.com/wesbos/css-grid/tree/master/25%20-%20Full%20Bleed%20Blog%20Layout
 
-## Design process
+## Process
 
 1. [idea](/design/idea.pdf)
-
-## TODO
+2. layout in [figma](https://www.figma.com/file/9098Lmle6njrx5enECtbn2/blog-post-exploration?node-id=0%3A1&viewport=854%2C266%2C0.30483871698379517)
 
 ## Contributing and Issues
 
