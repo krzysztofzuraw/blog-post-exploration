@@ -37,8 +37,23 @@ npm start
 
 ## Process
 
-1. [idea](/design/idea.pdf)
-2. layout in [figma](https://www.figma.com/file/9098Lmle6njrx5enECtbn2/blog-post-exploration?node-id=0%3A1&viewport=854%2C266%2C0.30483871698379517)
+### Working with idea
+
+Prototype [here](/design/idea.pdf)
+
+### Creating layout
+
+Layout in [figma](https://www.figma.com/file/9098Lmle6njrx5enECtbn2/blog-post-exploration?node-id=0%3A1&viewport=854%2C266%2C0.30483871698379517)
+
+### Picking pieces of design
+
+- [color palette](https://coolors.co/efc69b-af1b3f-473144-ccb69b-df9b6d)
+
+![palette](./design/pallete.png)
+
+- [fonts](https://fonts.google.com/specimen/PT+Serif?category=Serif,Sans+Serif,Display&sidebar.open&preview.text=Pchn%C4%85%C4%87+w+t%C4%99+%C5%82%C3%B3d%C5%BA+je%C5%BCa+lub+o%C5%9Bm+skrzy%C5%84+fig&preview.text_type=custom&selection.family=Open+Sans|PT+Serif&query=open+sans)
+
+![fonts](./design/fonts.png)
 
 ## Contributing and Issues
 
