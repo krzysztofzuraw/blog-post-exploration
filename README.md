@@ -34,6 +34,7 @@ npm start
 - https://upmostly.com/tutorials/build-a-react-switch-toggle-component
 - https://tympanus.net/Development/ArticleIntroEffects/index.html
 - https://github.com/wesbos/css-grid/tree/master/25%20-%20Full%20Bleed%20Blog%20Layout
+- https://webanimationworkshops.com/
 
 ## Process
 
@@ -54,6 +55,12 @@ Layout in [figma](https://www.figma.com/file/9098Lmle6njrx5enECtbn2/blog-post-ex
 - [fonts](https://fonts.google.com/specimen/PT+Serif?category=Serif,Sans+Serif,Display&sidebar.open&preview.text=Pchn%C4%85%C4%87+w+t%C4%99+%C5%82%C3%B3d%C5%BA+je%C5%BCa+lub+o%C5%9Bm+skrzy%C5%84+fig&preview.text_type=custom&selection.family=Open+Sans|PT+Serif&query=open+sans)
 
 ![fonts](./design/fonts.png)
+
+- content from [wikipedia](https://en.wikipedia.org/wiki/Chemex_Coffeemaker)
+
+- images from [unsplash](https://unsplash.com/s/photos/chemex)
+
+- logo - my picture & from [noun project](https://thenounproject.com/)
 
 ## Contributing and Issues
 
