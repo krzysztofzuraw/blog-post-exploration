@@ -1,0 +1,27 @@
+$gold: #efc69b;
+$burgundy: #af1b3f;
+$byzantium: #473144;
+$khaki: #ccb69b;
+$crayola: #df9b6d;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&family=PT+Serif&display=swap');
+
+html {
+  box-sizing: border-box;
+  color: $byzantium;
+  font-family: 'Open Sans', sans-serif;
+  //  font-family: 'PT Serif', serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: $gold;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
