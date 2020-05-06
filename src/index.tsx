@@ -3,6 +3,12 @@ import React, { FunctionComponent } from 'react';
 
 import './index.scss';
 
-const Root: FunctionComponent = () => <div>Template</div>;
+const Root: FunctionComponent = () => (
+  <>
+    <nav>Navbar</nav>
+    <article>Content</article>
+    <footer>Footer</footer>
+  </>
+);
 
 ReactDOM.render(<Root />, document.getElementById('root') as HTMLElement);

@@ -25,3 +25,25 @@ body {
   height: 100vh;
   margin: 0;
 }
+
+#root {
+  display: grid;
+  grid-template-areas:
+    'navbar'
+    'article'
+    'footer';
+  grid-template-rows: 100px 1fr 200px;
+  height: 100%;
+}
+
+nav {
+  grid-area: navbar;
+}
+
+article {
+  grid-area: article;
+}
+
+footer {
+  grid-area: footer;
+}
