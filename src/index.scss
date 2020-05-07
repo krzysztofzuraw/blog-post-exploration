@@ -10,7 +10,6 @@ html {
   box-sizing: border-box;
   color: $byzantium;
   font-family: 'Open Sans', sans-serif;
-  //  font-family: 'PT Serif', serif;
 }
 
 *,
@@ -26,18 +25,32 @@ body {
   margin: 0;
 }
 
+h1 {
+  font-family: 'PT Serif', serif;
+  font-size: unset;
+  font-weight: unset;
+  margin: 0;
+}
+
 #root {
   display: grid;
   grid-template-areas:
     'navbar'
     'article'
     'footer';
-  grid-template-rows: 100px 1fr 200px;
+  grid-template-rows: auto 1fr 200px;
   height: 100%;
 }
 
 nav {
   grid-area: navbar;
+  display: grid;
+  place-items: center;
+  grid-auto-flow: column;
+  h1 {
+    font-size: 48px;
+    font-weight: normal;
+  }
 }
 
 article {
