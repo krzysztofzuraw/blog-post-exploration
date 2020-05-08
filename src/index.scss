@@ -47,9 +47,16 @@ nav {
   display: grid;
   place-items: center;
   grid-auto-flow: column;
+  border-bottom: 1px solid $crayola;
+  padding: 10px;
   h1 {
     font-size: 48px;
     font-weight: normal;
+  }
+  img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
   }
 }
 
