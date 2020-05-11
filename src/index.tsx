@@ -17,7 +17,22 @@ const Root: FunctionComponent = () => (
       <h1>Krzysztof Żuraw blog</h1>
       <img src={avatar} />
     </nav>
-    <article>Content</article>
+    <section>
+      <h2>Blog</h2>
+      <svg width="3" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <line x1="1.5" y1="-5.66774e-10" x2="1.5" y2="1110" stroke="#473144" stroke-width="3" />
+      </svg>
+    </section>
+    <article>
+      <p className="subhead">
+        Anim aliquip cillum sint tempor id consequat aliqua ipsum incididunt consequat veniam. Anim
+        voluptate do pariatur eiusmod duis magna elit eu. Magna dolore quis dolore mollit aliquip
+        culpa veniam et. Lorem in nisi cillum veniam pariatur nisi velit ex labore nostrud cillum.
+        Esse aute occaecat minim amet sit et qui minim minim voluptate dolore laborum. Minim mollit
+        consectetur in ex eiusmod non non qui. Deserunt nostrud eiusmod aute cupidatat consectetur
+        et amet.
+      </p>
+    </article>
     <footer>Footer</footer>
   </>
 );
