@@ -20,13 +20,14 @@ html {
 
 body {
   background: $gold;
-  width: 100vw;
-  height: 100vh;
+  min-width: calc(100vw - 20px);
+  min-height: 100vh;
   margin: 0;
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: 'PT Serif', serif;
   font-size: unset;
   font-weight: unset;
@@ -45,9 +46,8 @@ p {
     'navbar navbar'
     'sider article'
     'footer footer';
-  grid-template-rows: auto 1fr 200px;
-  grid-template-columns: 100px auto;
-  height: 100%;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: auto auto;
 }
 
 nav {
@@ -100,8 +100,9 @@ article {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 20px;
+  grid-gap: 10px;
   .subhead {
-    & ::first-letter {
+    &:first-letter {
       font-size: 144px;
       margin-right: 0.2em;
       margin-bottom: 0.2em;
@@ -110,10 +111,15 @@ article {
     }
   }
   p {
+    grid-column: span 3;
     font-size: 20px;
     font-weight: normal;
     font-style: normal;
     line-height: 27px;
     letter-spacing: 0.002em;
+  }
+  h3 {
+    font-size: 48px;
+    grid-column: span 3;
   }
 }
