@@ -54,8 +54,66 @@ const Root: FunctionComponent = () => (
         reprehenderit cupidatat eu.
       </p>
       <h3>First header</h3>
+      <p className="note-right">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ut modi ab rerum suscipit
+        consectetur, porro incidunt? Maxime voluptatem officiis atque perspiciatis laborum? Ut minus
+        consequatur corrupti voluptate placeat. Doloremque.
+      </p>
+      <p className="next-to-note">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dignissimos odio assumenda
+        reiciendis pariatur veritatis animi consequatur nemo similique accusantium impedit maiores
+        asperiores mollitia, nihil porro repellat. Delectus, laudantium beatae. Lorem ipsum dolor
+        sit amet consectetur adipisicing elit. In porro debitis, culpa dignissimos nobis voluptas
+        fugit architecto ipsum asperiores! Quod minus eius animi, sed quis inventore optio. Aut,
+        magnam hic?
+      </p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi ad iste, excepturi
+        exercitationem quis nesciunt praesentium, quas corporis, ipsam cum laudantium quasi facilis
+        enim ex atque! Repellat in impedit deserunt! Lorem ipsum dolor sit amet, consectetur
+        adipisicing elit. Voluptatem excepturi alias exercitationem! Eos nam blanditiis placeat,
+        alias quo cum? Odit hic magni quis aut eos, atque exercitationem alias sequi nisi. Lorem
+        ipsum dolor sit, amet consectetur adipisicing elit. Quo recusandae expedita, nostrum
+        perferendis nobis hic vero voluptatum rerum assumenda quibusdam et, ratione optio dolore
+        facilis quae reiciendis sapiente modi odio?
+      </p>
+      <img src="https://source.unsplash.com/uOSLLaa9cfw/" alt="article-pic" />
+      <p className="next-to-note">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dignissimos odio assumenda
+        reiciendis pariatur veritatis animi consequatur nemo similique accusantium impedit maiores
+        asperiores mollitia, nihil porro repellat. Delectus, laudantium beatae. Lorem ipsum dolor
+        sit amet consectetur adipisicing elit. In porro debitis, culpa dignissimos nobis voluptas
+        fugit architecto ipsum asperiores! Quod minus eius animi, sed quis inventore optio. Aut,
+        magnam hic?
+      </p>
+      <p className="note-left">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ut modi ab rerum suscipit
+        consectetur, porro incidunt? Maxime voluptatem officiis atque perspiciatis laborum? Ut minus
+        consequatur corrupti voluptate placeat. Doloremque.
+      </p>
+      <img src="https://source.unsplash.com/TYIzeCiZ_60/" alt="article-pic" />
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quidem consequuntur
+        culpa minima tempore rerum totam pariatur! Earum, inventore non sapiente esse vel quia nulla
+        magni laborum molestias commodi quos! Itaque, laboriosam nostrum numquam alias, cum labore,
+        veniam fugit iste optio natus error officiis fugiat sed. Velit quaerat, sunt fugiat culpa,
+        numquam unde dolorum, earum sequi vel quae soluta laboriosam. Eligendi deleniti amet cumque
+        quos, fugit consequatur nulla pariatur recusandae exercitationem, odio delectus harum vero
+        nostrum quod architecto assumenda nam modi minima facilis. Dolorem perferendis magni
+        blanditiis voluptatibus error consectetur? Sunt, iste laboriosam modi quo doloribus, eveniet
+        nobis fugit doloremque, ipsam natus nihil suscipit quasi iusto blanditiis! Modi cum labore
+        voluptatum! Magni recusandae beatae quam a officiis neque, unde eius! Deleniti obcaecati
+        atque perferendis saepe quam dolorem? Laborum, nesciunt dolorem. Ipsum beatae fuga cum
+        asperiores alias incidunt sunt delectus cumque, dolor nobis odio eos laborum quis ipsa
+        praesentium dolores ullam.
+      </p>
     </article>
-    <footer>Footer</footer>
+    <footer>
+      <p>
+        Created by <a href="https://krzysztofzuraw.com">Krzysztof Żuraw</a>. Source on{' '}
+        <a href="https://github.com/krzysztofzuraw/blog-post-exploration">GitHub</a>.
+      </p>
+    </footer>
   </>
 );
 
