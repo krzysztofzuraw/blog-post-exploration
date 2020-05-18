@@ -4,6 +4,8 @@ $byzantium: #473144;
 $khaki: #ccb69b;
 $crayola: #df9b6d;
 
+$breakpoint-mobile: 30em;
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&family=PT+Serif&display=swap');
 
 html {
@@ -43,6 +45,52 @@ p {
   font-style: normal;
   line-height: 27px;
   letter-spacing: 0.002em;
+  @media (max-width: $breakpoint-mobile) {
+    font-size: 16px;
+  }
+  grid-column: span 3;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: normal;
+  @media (max-width: $breakpoint-mobile) {
+    font-size: 24px;
+  }
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 48px;
+  font-weight: normal;
+  writing-mode: vertical-rl;
+}
+
+h3 {
+  font-size: 48px;
+  grid-column: span 3;
+  margin: 16px 0;
+  @media (max-width: $breakpoint-mobile) {
+    font-size: 24px;
+  }
+}
+
+svg {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: $burgundy;
+}
+
+img {
+  grid-column: span 3;
+  object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 450px;
 }
 
 #root {
@@ -51,6 +99,12 @@ p {
     'navbar navbar'
     'sider article'
     'footer footer';
+  @media (max-width: $breakpoint-mobile) {
+    grid-template-areas:
+      'navbar'
+      'article'
+      'footer';
+  }
   grid-template-rows: auto 1fr auto;
   grid-template-columns: auto auto;
   margin: 0 auto;
@@ -65,33 +119,19 @@ nav {
   border-bottom: 1px solid $crayola;
   padding: 20px;
   grid-template-columns: auto 1fr auto;
-  h1 {
-    font-size: 48px;
-    font-weight: normal;
-  }
-  img {
+
+  .avatar {
     width: 55px;
     height: 55px;
     border-radius: 50%;
   }
-  svg {
-    cursor: pointer;
-    margin-left: 5px;
-  }
-}
-
-article {
-  grid-area: article;
 }
 
 footer {
   grid-area: footer;
   display: grid;
   place-items: center;
-  a {
-    text-decoration: none;
-    color: $burgundy;
-  }
+  padding: 20px;
 }
 
 section {
@@ -101,15 +141,13 @@ section {
   place-items: center;
   grid-gap: 20px;
   grid-template-rows: auto 1fr;
-  h2 {
-    text-transform: uppercase;
-    font-size: 48px;
-    font-weight: normal;
-    writing-mode: sideways-rl;
+  @media (max-width: $breakpoint-mobile) {
+    display: none;
   }
 }
 
 article {
+  grid-area: article;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 20px;
@@ -120,18 +158,14 @@ article {
       margin-right: 0.2em;
       margin-bottom: 0.2em;
       float: left;
-      margin-top: 0.01em;
+      margin-top: 0.3em;
+      @media (max-width: $breakpoint-mobile) {
+        font-size: 60px;
+      }
     }
   }
-  p {
-    grid-column: span 3;
-  }
-  h3 {
-    font-size: 48px;
-    grid-column: span 3;
-    margin: 16px 0;
-  }
-  .note-right {
+
+  .note {
     font-weight: lighter;
     font-style: italic;
     font-size: 20px;
@@ -139,22 +173,27 @@ article {
     padding: 8px;
     border-bottom: 2px solid $burgundy;
   }
+  .note-right {
+    grid-column: span 1;
+    @media (max-width: $breakpoint-mobile) {
+      grid-column: span 3;
+      font-size: 18px;
+    }
+  }
+
   .note-left {
-    font-weight: lighter;
-    font-style: italic;
-    font-size: 20px;
     grid-column: 3 / 4;
     padding: 8px;
-    border-bottom: 2px solid $burgundy;
+    @media (max-width: $breakpoint-mobile) {
+      grid-column: span 3;
+      font-size: 18px;
+    }
   }
+
   .next-to-note {
     grid-column: span 2;
-  }
-  img {
-    grid-column: span 3;
-    object-fit: cover;
-    display: block;
-    width: 100%;
-    height: 450px;
+    @media (max-width: $breakpoint-mobile) {
+      grid-column: span 3;
+    }
   }
 }

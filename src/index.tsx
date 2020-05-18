@@ -15,11 +15,11 @@ const Root: FunctionComponent = () => (
         />
       </svg>
       <h1>Krzysztof Żuraw blog</h1>
-      <img src={avatar} />
+      <img src={avatar} className="avatar" />
     </nav>
     <section>
       <h2>Blog</h2>
-      <svg width="3" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg width="3" height="95%" fill="none" xmlns="http://www.w3.org/2000/svg">
         <line x1="1.5" y1="-5.66774e-10" x2="1.5" y2="1110" stroke="#473144" stroke-width="3" />
       </svg>
     </section>
@@ -54,7 +54,7 @@ const Root: FunctionComponent = () => (
         reprehenderit cupidatat eu.
       </p>
       <h3>First header</h3>
-      <p className="note-right">
+      <p className="note note-right">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ut modi ab rerum suscipit
         consectetur, porro incidunt? Maxime voluptatem officiis atque perspiciatis laborum? Ut minus
         consequatur corrupti voluptate placeat. Doloremque.
@@ -86,7 +86,7 @@ const Root: FunctionComponent = () => (
         fugit architecto ipsum asperiores! Quod minus eius animi, sed quis inventore optio. Aut,
         magnam hic?
       </p>
-      <p className="note-left">
+      <p className="note note-left">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ut modi ab rerum suscipit
         consectetur, porro incidunt? Maxime voluptatem officiis atque perspiciatis laborum? Ut minus
         consequatur corrupti voluptate placeat. Doloremque.
